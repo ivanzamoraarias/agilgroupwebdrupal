@@ -4,6 +4,7 @@ sites/*/private
 files/*
 sites/default/service.yml
 sites/*/settings.local.php
+.idea
 
 # Avoid accidental modification of pantheon.upstream.yml in sites
 # created from this upstream
