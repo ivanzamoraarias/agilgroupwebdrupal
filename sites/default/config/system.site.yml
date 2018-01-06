@@ -1,0 +1,14 @@
+uuid: 141a151a-4a77-4fcd-a5d3-5ef3808c6692
+name: 'Agilgoup S.A'
+mail: test@test.com
+slogan: 'Awsome Page'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
