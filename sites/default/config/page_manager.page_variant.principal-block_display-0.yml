@@ -1,0 +1,89 @@
+uuid: ad4c1690-b328-4fc7-9db0-53d10eae6028
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.principal
+    - views.view.service_view
+    - views.view.slick_slide_show
+  module:
+    - simple_social_icons
+    - views
+id: principal-block_display-0
+label: 'Block agil principal page '
+variant: block_display
+variant_settings:
+  blocks:
+    1b4e3378-6479-46aa-8308-2340082ed89d:
+      id: 'views_block:service_view-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: -9
+      uuid: 1b4e3378-6479-46aa-8308-2340082ed89d
+      context_mapping: {  }
+    e1866778-d9bf-4d8e-bdff-878316e2b371:
+      id: 'views_block:service_view-block_2'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: -7
+      uuid: e1866778-d9bf-4d8e-bdff-878316e2b371
+      context_mapping: {  }
+    d88abfe9-3b7f-4375-85fa-785bfc577f05:
+      id: 'views_block:slick_slide_show-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '5'
+      region: top
+      weight: -10
+      uuid: d88abfe9-3b7f-4375-85fa-785bfc577f05
+      context_mapping: {  }
+    868648b0-58ca-44b7-afab-646ad1a6215b:
+      id: simple_social_icons_block
+      label: 'Simple social icons block'
+      provider: simple_social_icons
+      label_display: '0'
+      region: top
+      weight: -8
+      uuid: 868648b0-58ca-44b7-afab-646ad1a6215b
+      size: '38'
+      font_size: '24'
+      radius: '32'
+      spacing: '26'
+      button_link_color: '#16a0bc'
+      icon_color: '#ffffff'
+      use_default_style_ignore_colors: 0
+      twitter_via: ''
+      twitter_enable: 0
+      twitter_weight: '0'
+      linkedin_summary: ''
+      linkedin_source: ''
+      linkedin_enable: 0
+      pinterest_image_url: ''
+      pinterest_desc: ''
+      pinterest_enable: 1
+      email_subject: ''
+      email_body: ''
+      email_enable: 0
+      facebook_enable: 0
+      googleplus_enable: 0
+      context_mapping: {  }
+  id: block_display
+  uuid: 2ec831a4-078d-466f-8fdf-0fe40234369f
+  label: null
+  weight: 0
+  page_title: ''
+page: principal
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

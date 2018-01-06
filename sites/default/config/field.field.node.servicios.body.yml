@@ -1,0 +1,22 @@
+uuid: 6bf7122b-9ee3-466c-ba5f-b3c226dc6f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.servicios
+  module:
+    - text
+id: node.servicios.body
+field_name: body
+entity_type: node
+bundle: servicios
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

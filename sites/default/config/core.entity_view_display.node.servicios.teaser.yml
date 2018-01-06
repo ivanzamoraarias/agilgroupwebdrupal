@@ -1,0 +1,28 @@
+uuid: 0ee0b5a5-96bf-45c2-9015-bbf89f2f2f9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.servicios.body
+    - node.type.servicios
+  module:
+    - text
+    - user
+id: node.servicios.teaser
+targetEntityType: node
+bundle: servicios
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

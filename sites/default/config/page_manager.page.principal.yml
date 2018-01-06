@@ -1,0 +1,12 @@
+uuid: c36796a2-e847-4886-aeba-463de62e7cf7
+langcode: en
+status: true
+dependencies: {  }
+id: principal
+label: principal
+description: 'main page of AgilGroup SA'
+use_admin_theme: false
+path: /index
+access_logic: and
+access_conditions: {  }
+parameters: {  }
