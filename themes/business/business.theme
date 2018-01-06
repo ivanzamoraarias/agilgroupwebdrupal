@@ -3,9 +3,9 @@
  * @file
  * Functions to support theming in the Business theme.
  */
-define('THEME_PATH', base_path() . drupal_get_path('theme', 'business'));
+//define('THEME_PATH', base_path() . drupal_get_path('theme', 'business'));
 // Change the value to increase the slideshow.
-define('SLIDESHOW_COUNT', 5);
+//define('SLIDESHOW_COUNT', 5);
 
 use Drupal\Component\Utility\SafeMarkup;
 use Drupal\Component\Utility\Xss;
