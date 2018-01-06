@@ -1411,3 +1411,15 @@ tr:nth-child(odd) {background: #FFF}
 .col-lg-12 {
   width: auto !important;
 }
+
+.social-media-home{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media(min-width: 0px) and (max-width: 767px) {
+  .social-media-home{
+    width: 200px;
+  }
+}
