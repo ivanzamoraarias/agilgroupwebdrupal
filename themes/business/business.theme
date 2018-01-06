@@ -39,26 +39,26 @@ function business_preprocess_page(&$vars) {
   else {
     $vars['contentlayout'] = 'col-lg-12 centered ';
   }
-  $show_slideshow = theme_get_setting('slideshow_display', 'business');
-  if ($vars['is_front'] && $show_slideshow) {
-    $vars['slider'] = array();
-    for ($i = 1; $i <= SLIDESHOW_COUNT; $i++) {
-      $fid = theme_get_setting("slide_image_{$i}", "business");
-      $file = \Drupal\file\Entity\File::load($fid[0]);
-      if (!empty($file)) {
-        $uri = $file->getFileUri();
-        $image_path = file_create_url($uri);
-      }
-      else {
-        $image_path = THEME_PATH . "/images/slide-{$i}.jpg";
-      }
-      $vars['slider'][] = array(
-        'url' => theme_get_setting("slide_url_{$i}", "business"),
-        'src' => $image_path,
-        'title' => theme_get_setting("slide_title_{$i}", "business"),
-      );
-    }
-  }
+//  $show_slideshow = theme_get_setting('slideshow_display', 'business');
+//  if ($vars['is_front'] && $show_slideshow) {
+//    $vars['slider'] = array();
+//    for ($i = 1; $i <= SLIDESHOW_COUNT; $i++) {
+//      $fid = theme_get_setting("slide_image_{$i}", "business");
+//      $file = \Drupal\file\Entity\File::load($fid[0]);
+//      if (!empty($file)) {
+//        $uri = $file->getFileUri();
+//        $image_path = file_create_url($uri);
+//      }
+//      else {
+//        $image_path = THEME_PATH . "/images/slide-{$i}.jpg";
+//      }
+//      $vars['slider'][] = array(
+//        'url' => theme_get_setting("slide_url_{$i}", "business"),
+//        'src' => $image_path,
+//        'title' => theme_get_setting("slide_title_{$i}", "business"),
+//      );
+//    }
+//  }
 
   // Copyright.
   $vars['copyright'] = NULL;
