@@ -1417,9 +1417,58 @@ tr:nth-child(odd) {background: #FFF}
   margin: 0 auto;
   text-align: center;
 }
+.slide__caption{
+  font-weight: bold;
+}
+.li-clients li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
 
+.lu-clients ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
 @media(min-width: 0px) and (max-width: 767px) {
   .social-media-home{
     width: 200px;
   }
+  .views-view-grid .views-col .views-field views-field-body{
+    visibility: hidden;
+  }
+  .views-field-body{
+
+  }
+  /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*.slide__content .slide__media */
+  .slide__caption a{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 152%;
+  }
+  .views-view-grid{
+    height: 20px;
+  }
+  .field-content{
+    height: 67px;
+    overflow-y: hidden;
+  }
+  /*.views-view-grid .views-col{*/
+    /*float: none;*/
+    /*display: block;*/
+    /*margin-left: 20%;*/
+    /*width: 100%;*/
+  /*}*/
+  /*.views-col .col-1{*/
+    /*width: 100%;*/
+  /*}*/
+  /*td{*/
+    /*width: 100%;*/
+  /*}*/
+  /*tr{*/
+    /*width: 100%;*/
+  /*}*/
 }
