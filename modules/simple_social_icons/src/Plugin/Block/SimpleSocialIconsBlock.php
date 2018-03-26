@@ -414,7 +414,7 @@ class SimpleSocialIconsBlock extends BlockBase {
     $request = \Drupal::request();
 
     $url = Url::fromRoute('<current>');
-    $url = $request->getHttpHost() . $url->toString();
+    $url = $request->getHttpHost();// . $url->toString();
 
     // Load the current node.
     $node = \Drupal::routeMatch()->getParameter('node');
